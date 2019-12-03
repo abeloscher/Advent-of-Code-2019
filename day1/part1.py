@@ -10,3 +10,6 @@ for mass in infile:
     r_sum += (massAsInt//3)-2
 
 print(r_sum)
+
+
+infile.close()

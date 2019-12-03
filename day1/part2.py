@@ -30,3 +30,5 @@ for mass in infile:
     r_sum += calc_til_0_call_recurse(massAsInt)
 
 print(r_sum)
+
+infile.close()
